@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D9BCED1620EBBB4A0052C627 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9BCED1520EBBB4A0052C627 /* AppDelegate.swift */; };
+		D9BCED1820EBBB4A0052C627 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9BCED1720EBBB4A0052C627 /* ViewController.swift */; };
+		D9BCED1B20EBBB4A0052C627 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9BCED1920EBBB4A0052C627 /* Main.storyboard */; };
+		D9BCED1D20EBBB4C0052C627 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D9BCED1C20EBBB4C0052C627 /* Assets.xcassets */; };
+		D9BCED2020EBBB4C0052C627 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9BCED1E20EBBB4C0052C627 /* LaunchScreen.storyboard */; };
+		D9BCED2B20EBBB4C0052C627 /* SmartCallTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9BCED2A20EBBB4C0052C627 /* SmartCallTests.swift */; };
+		D9BCED3620EBBB4C0052C627 /* SmartCallUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9BCED3520EBBB4C0052C627 /* SmartCallUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D9BCED2720EBBB4C0052C627 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D9BCED0A20EBBB4A0052C627 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9BCED1120EBBB4A0052C627;
+			remoteInfo = SmartCall;
+		};
+		D9BCED3220EBBB4C0052C627 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D9BCED0A20EBBB4A0052C627 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D9BCED1120EBBB4A0052C627;
+			remoteInfo = SmartCall;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D9BCED1220EBBB4A0052C627 /* SmartCall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartCall.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9BCED1520EBBB4A0052C627 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D9BCED1720EBBB4A0052C627 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		D9BCED1A20EBBB4A0052C627 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D9BCED1C20EBBB4C0052C627 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D9BCED1F20EBBB4C0052C627 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D9BCED2120EBBB4C0052C627 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9BCED2620EBBB4C0052C627 /* SmartCallTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartCallTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9BCED2A20EBBB4C0052C627 /* SmartCallTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartCallTests.swift; sourceTree = "<group>"; };
+		D9BCED2C20EBBB4C0052C627 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9BCED3120EBBB4C0052C627 /* SmartCallUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartCallUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9BCED3520EBBB4C0052C627 /* SmartCallUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartCallUITests.swift; sourceTree = "<group>"; };
+		D9BCED3720EBBB4C0052C627 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D9BCED0F20EBBB4A0052C627 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9BCED2320EBBB4C0052C627 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9BCED2E20EBBB4C0052C627 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D9BCED0920EBBB4A0052C627 = {
+			isa = PBXGroup;
+			children = (
+				D9BCED1420EBBB4A0052C627 /* SmartCall */,
+				D9BCED2920EBBB4C0052C627 /* SmartCallTests */,
+				D9BCED3420EBBB4C0052C627 /* SmartCallUITests */,
+				D9BCED1320EBBB4A0052C627 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D9BCED1320EBBB4A0052C627 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D9BCED1220EBBB4A0052C627 /* SmartCall.app */,
+				D9BCED2620EBBB4C0052C627 /* SmartCallTests.xctest */,
+				D9BCED3120EBBB4C0052C627 /* SmartCallUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D9BCED1420EBBB4A0052C627 /* SmartCall */ = {
+			isa = PBXGroup;
+			children = (
+				D9BCED1520EBBB4A0052C627 /* AppDelegate.swift */,
+				D9BCED1720EBBB4A0052C627 /* ViewController.swift */,
+				D9BCED1920EBBB4A0052C627 /* Main.storyboard */,
+				D9BCED1C20EBBB4C0052C627 /* Assets.xcassets */,
+				D9BCED1E20EBBB4C0052C627 /* LaunchScreen.storyboard */,
+				D9BCED2120EBBB4C0052C627 /* Info.plist */,
+			);
+			path = SmartCall;
+			sourceTree = "<group>";
+		};
+		D9BCED2920EBBB4C0052C627 /* SmartCallTests */ = {
+			isa = PBXGroup;
+			children = (
+				D9BCED2A20EBBB4C0052C627 /* SmartCallTests.swift */,
+				D9BCED2C20EBBB4C0052C627 /* Info.plist */,
+			);
+			path = SmartCallTests;
+			sourceTree = "<group>";
+		};
+		D9BCED3420EBBB4C0052C627 /* SmartCallUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D9BCED3520EBBB4C0052C627 /* SmartCallUITests.swift */,
+				D9BCED3720EBBB4C0052C627 /* Info.plist */,
+			);
+			path = SmartCallUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D9BCED1120EBBB4A0052C627 /* SmartCall */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9BCED3A20EBBB4C0052C627 /* Build configuration list for PBXNativeTarget "SmartCall" */;
+			buildPhases = (
+				D9BCED0E20EBBB4A0052C627 /* Sources */,
+				D9BCED0F20EBBB4A0052C627 /* Frameworks */,
+				D9BCED1020EBBB4A0052C627 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SmartCall;
+			productName = SmartCall;
+			productReference = D9BCED1220EBBB4A0052C627 /* SmartCall.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D9BCED2520EBBB4C0052C627 /* SmartCallTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9BCED3D20EBBB4C0052C627 /* Build configuration list for PBXNativeTarget "SmartCallTests" */;
+			buildPhases = (
+				D9BCED2220EBBB4C0052C627 /* Sources */,
+				D9BCED2320EBBB4C0052C627 /* Frameworks */,
+				D9BCED2420EBBB4C0052C627 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D9BCED2820EBBB4C0052C627 /* PBXTargetDependency */,
+			);
+			name = SmartCallTests;
+			productName = SmartCallTests;
+			productReference = D9BCED2620EBBB4C0052C627 /* SmartCallTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D9BCED3020EBBB4C0052C627 /* SmartCallUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9BCED4020EBBB4C0052C627 /* Build configuration list for PBXNativeTarget "SmartCallUITests" */;
+			buildPhases = (
+				D9BCED2D20EBBB4C0052C627 /* Sources */,
+				D9BCED2E20EBBB4C0052C627 /* Frameworks */,
+				D9BCED2F20EBBB4C0052C627 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D9BCED3320EBBB4C0052C627 /* PBXTargetDependency */,
+			);
+			name = SmartCallUITests;
+			productName = SmartCallUITests;
+			productReference = D9BCED3120EBBB4C0052C627 /* SmartCallUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D9BCED0A20EBBB4A0052C627 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Narendra Kumar R";
+				TargetAttributes = {
+					D9BCED1120EBBB4A0052C627 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					D9BCED2520EBBB4C0052C627 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = D9BCED1120EBBB4A0052C627;
+					};
+					D9BCED3020EBBB4C0052C627 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = D9BCED1120EBBB4A0052C627;
+					};
+				};
+			};
+			buildConfigurationList = D9BCED0D20EBBB4A0052C627 /* Build configuration list for PBXProject "SmartCall" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D9BCED0920EBBB4A0052C627;
+			productRefGroup = D9BCED1320EBBB4A0052C627 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D9BCED1120EBBB4A0052C627 /* SmartCall */,
+				D9BCED2520EBBB4C0052C627 /* SmartCallTests */,
+				D9BCED3020EBBB4C0052C627 /* SmartCallUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D9BCED1020EBBB4A0052C627 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9BCED2020EBBB4C0052C627 /* LaunchScreen.storyboard in Resources */,
+				D9BCED1D20EBBB4C0052C627 /* Assets.xcassets in Resources */,
+				D9BCED1B20EBBB4A0052C627 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9BCED2420EBBB4C0052C627 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9BCED2F20EBBB4C0052C627 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D9BCED0E20EBBB4A0052C627 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9BCED1820EBBB4A0052C627 /* ViewController.swift in Sources */,
+				D9BCED1620EBBB4A0052C627 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9BCED2220EBBB4C0052C627 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9BCED2B20EBBB4C0052C627 /* SmartCallTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9BCED2D20EBBB4C0052C627 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9BCED3620EBBB4C0052C627 /* SmartCallUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D9BCED2820EBBB4C0052C627 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D9BCED1120EBBB4A0052C627 /* SmartCall */;
+			targetProxy = D9BCED2720EBBB4C0052C627 /* PBXContainerItemProxy */;
+		};
+		D9BCED3320EBBB4C0052C627 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D9BCED1120EBBB4A0052C627 /* SmartCall */;
+			targetProxy = D9BCED3220EBBB4C0052C627 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D9BCED1920EBBB4A0052C627 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9BCED1A20EBBB4A0052C627 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D9BCED1E20EBBB4C0052C627 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9BCED1F20EBBB4C0052C627 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D9BCED3820EBBB4C0052C627 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D9BCED3920EBBB4C0052C627 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D9BCED3B20EBBB4C0052C627 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M6U48XKJMW;
+				INFOPLIST_FILE = SmartCall/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.techv.SmartCall;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D9BCED3C20EBBB4C0052C627 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M6U48XKJMW;
+				INFOPLIST_FILE = SmartCall/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.techv.SmartCall;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		D9BCED3E20EBBB4C0052C627 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M6U48XKJMW;
+				INFOPLIST_FILE = SmartCallTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.techv.SmartCallTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmartCall.app/SmartCall";
+			};
+			name = Debug;
+		};
+		D9BCED3F20EBBB4C0052C627 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M6U48XKJMW;
+				INFOPLIST_FILE = SmartCallTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.techv.SmartCallTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SmartCall.app/SmartCall";
+			};
+			name = Release;
+		};
+		D9BCED4120EBBB4C0052C627 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M6U48XKJMW;
+				INFOPLIST_FILE = SmartCallUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.techv.SmartCallUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SmartCall;
+			};
+			name = Debug;
+		};
+		D9BCED4220EBBB4C0052C627 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = M6U48XKJMW;
+				INFOPLIST_FILE = SmartCallUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.techv.SmartCallUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SmartCall;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D9BCED0D20EBBB4A0052C627 /* Build configuration list for PBXProject "SmartCall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9BCED3820EBBB4C0052C627 /* Debug */,
+				D9BCED3920EBBB4C0052C627 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9BCED3A20EBBB4C0052C627 /* Build configuration list for PBXNativeTarget "SmartCall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9BCED3B20EBBB4C0052C627 /* Debug */,
+				D9BCED3C20EBBB4C0052C627 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9BCED3D20EBBB4C0052C627 /* Build configuration list for PBXNativeTarget "SmartCallTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9BCED3E20EBBB4C0052C627 /* Debug */,
+				D9BCED3F20EBBB4C0052C627 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9BCED4020EBBB4C0052C627 /* Build configuration list for PBXNativeTarget "SmartCallUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9BCED4120EBBB4C0052C627 /* Debug */,
+				D9BCED4220EBBB4C0052C627 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D9BCED0A20EBBB4A0052C627 /* Project object */;
+}
