@@ -7,15 +7,53 @@
 //
 
 import UIKit
-
+import PushKit
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-
+    var pushRegistor: PKPushRegistry?
+    let callManager = SpeakerboxCallManager()
+    var providerDelegate: ProviderDelegate?
+    class var shared: AppDelegate {
+        return UIApplication.shared.delegate as! AppDelegate
+    }
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        application.registerForRemoteNotifications()
+        self.setPushResistory()
+        providerDelegate = ProviderDelegate(callManager: callManager)
+        getUUID()
+        return true
+    }
+    
+    private func getUUID(){
+        let uuid = UUID.init().uuidString
+        print(uuid)
+    }
+    
+    func application(_ app: UIApplication, open url: URL, options: [UIApplicationOpenURLOptionsKey : Any] = [:]) -> Bool {
+        guard let handle = url.startCallHandle else {
+            print("Could not determine start call handle from URL: \(url)")
+            return false
+        }
+        
+        callManager.startCall(handle: handle)
+        return true
+    }
+    
+    func application(_ application: UIApplication, continue userActivity: NSUserActivity, restorationHandler: @escaping ([Any]?) -> Void) -> Bool {
+        guard let handle = userActivity.startCallHandle else {
+            print("Could not determine start call handle from user activity: \(userActivity)")
+            return false
+        }
+        
+        guard let video = userActivity.video else {
+            print("Could not determine video from user activity: \(userActivity)")
+            return false
+        }
+        
+        callManager.startCall(handle: handle, video: video)
         return true
     }
 
@@ -43,4 +81,3 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
 }
-

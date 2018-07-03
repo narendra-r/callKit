@@ -14,6 +14,15 @@
 		D9BCED2020EBBB4C0052C627 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D9BCED1E20EBBB4C0052C627 /* LaunchScreen.storyboard */; };
 		D9BCED2B20EBBB4C0052C627 /* SmartCallTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9BCED2A20EBBB4C0052C627 /* SmartCallTests.swift */; };
 		D9BCED3620EBBB4C0052C627 /* SmartCallUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9BCED3520EBBB4C0052C627 /* SmartCallUITests.swift */; };
+		D9BCED4520EBC8360052C627 /* PushHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9BCED4420EBC8360052C627 /* PushHandler.swift */; };
+		D9BCED4720EBC8D20052C627 /* DataExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9BCED4620EBC8D20052C627 /* DataExtension.swift */; };
+		D9BCED4920EBC9FF0052C627 /* ProviderDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9BCED4820EBC9FF0052C627 /* ProviderDelegate.swift */; };
+		D9BCED4C20EBCA180052C627 /* SpeakerboxCallManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9BCED4A20EBCA170052C627 /* SpeakerboxCallManager.swift */; };
+		D9BCED4D20EBCA180052C627 /* SpeakerboxCall.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9BCED4B20EBCA170052C627 /* SpeakerboxCall.swift */; };
+		D9BCED4F20EBCA9C0052C627 /* Ringtone.aif in Resources */ = {isa = PBXBuildFile; fileRef = D9BCED4E20EBCA9C0052C627 /* Ringtone.aif */; };
+		D9BCED5220EBD5440052C627 /* URL+StartCallConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9BCED5120EBD5440052C627 /* URL+StartCallConvertible.swift */; };
+		D9BCED5420EBD55F0052C627 /* NSUserActivity+StartCallConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9BCED5320EBD55F0052C627 /* NSUserActivity+StartCallConvertible.swift */; };
+		D9BCED5620EBD5800052C627 /* StartCallConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9BCED5520EBD57F0052C627 /* StartCallConvertible.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +56,16 @@
 		D9BCED3120EBBB4C0052C627 /* SmartCallUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SmartCallUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9BCED3520EBBB4C0052C627 /* SmartCallUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SmartCallUITests.swift; sourceTree = "<group>"; };
 		D9BCED3720EBBB4C0052C627 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D9BCED4320EBBB620052C627 /* SmartCall.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = SmartCall.entitlements; sourceTree = "<group>"; };
+		D9BCED4420EBC8360052C627 /* PushHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushHandler.swift; sourceTree = "<group>"; };
+		D9BCED4620EBC8D20052C627 /* DataExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataExtension.swift; sourceTree = "<group>"; };
+		D9BCED4820EBC9FF0052C627 /* ProviderDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProviderDelegate.swift; sourceTree = "<group>"; };
+		D9BCED4A20EBCA170052C627 /* SpeakerboxCallManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpeakerboxCallManager.swift; sourceTree = "<group>"; };
+		D9BCED4B20EBCA170052C627 /* SpeakerboxCall.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpeakerboxCall.swift; sourceTree = "<group>"; };
+		D9BCED4E20EBCA9C0052C627 /* Ringtone.aif */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ringtone.aif; sourceTree = "<group>"; };
+		D9BCED5120EBD5440052C627 /* URL+StartCallConvertible.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "URL+StartCallConvertible.swift"; sourceTree = "<group>"; };
+		D9BCED5320EBD55F0052C627 /* NSUserActivity+StartCallConvertible.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "NSUserActivity+StartCallConvertible.swift"; sourceTree = "<group>"; };
+		D9BCED5520EBD57F0052C627 /* StartCallConvertible.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartCallConvertible.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +116,19 @@
 		D9BCED1420EBBB4A0052C627 /* SmartCall */ = {
 			isa = PBXGroup;
 			children = (
+				D9BCED5020EBD4AA0052C627 /* Controllers */,
+				D9BCED4320EBBB620052C627 /* SmartCall.entitlements */,
 				D9BCED1520EBBB4A0052C627 /* AppDelegate.swift */,
+				D9BCED4420EBC8360052C627 /* PushHandler.swift */,
 				D9BCED1720EBBB4A0052C627 /* ViewController.swift */,
+				D9BCED4820EBC9FF0052C627 /* ProviderDelegate.swift */,
+				D9BCED5120EBD5440052C627 /* URL+StartCallConvertible.swift */,
+				D9BCED5320EBD55F0052C627 /* NSUserActivity+StartCallConvertible.swift */,
+				D9BCED5520EBD57F0052C627 /* StartCallConvertible.swift */,
+				D9BCED4B20EBCA170052C627 /* SpeakerboxCall.swift */,
+				D9BCED4A20EBCA170052C627 /* SpeakerboxCallManager.swift */,
+				D9BCED4620EBC8D20052C627 /* DataExtension.swift */,
+				D9BCED4E20EBCA9C0052C627 /* Ringtone.aif */,
 				D9BCED1920EBBB4A0052C627 /* Main.storyboard */,
 				D9BCED1C20EBBB4C0052C627 /* Assets.xcassets */,
 				D9BCED1E20EBBB4C0052C627 /* LaunchScreen.storyboard */,
@@ -123,6 +153,13 @@
 				D9BCED3720EBBB4C0052C627 /* Info.plist */,
 			);
 			path = SmartCallUITests;
+			sourceTree = "<group>";
+		};
+		D9BCED5020EBD4AA0052C627 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controllers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,6 +230,14 @@
 				TargetAttributes = {
 					D9BCED1120EBBB4A0052C627 = {
 						CreatedOnToolsVersion = 9.4.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 					D9BCED2520EBBB4C0052C627 = {
 						CreatedOnToolsVersion = 9.4.1;
@@ -229,6 +274,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9BCED4F20EBCA9C0052C627 /* Ringtone.aif in Resources */,
 				D9BCED2020EBBB4C0052C627 /* LaunchScreen.storyboard in Resources */,
 				D9BCED1D20EBBB4C0052C627 /* Assets.xcassets in Resources */,
 				D9BCED1B20EBBB4A0052C627 /* Main.storyboard in Resources */,
@@ -257,7 +303,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				D9BCED1820EBBB4A0052C627 /* ViewController.swift in Sources */,
+				D9BCED4C20EBCA180052C627 /* SpeakerboxCallManager.swift in Sources */,
+				D9BCED5620EBD5800052C627 /* StartCallConvertible.swift in Sources */,
+				D9BCED4720EBC8D20052C627 /* DataExtension.swift in Sources */,
+				D9BCED4D20EBCA180052C627 /* SpeakerboxCall.swift in Sources */,
+				D9BCED4520EBC8360052C627 /* PushHandler.swift in Sources */,
+				D9BCED5420EBD55F0052C627 /* NSUserActivity+StartCallConvertible.swift in Sources */,
 				D9BCED1620EBBB4A0052C627 /* AppDelegate.swift in Sources */,
+				D9BCED5220EBD5440052C627 /* URL+StartCallConvertible.swift in Sources */,
+				D9BCED4920EBC9FF0052C627 /* ProviderDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -430,15 +484,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_ENTITLEMENTS = SmartCall/SmartCall.entitlements;
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = M6U48XKJMW;
 				INFOPLIST_FILE = SmartCall/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.techv.SmartCall;
+				PRODUCT_BUNDLE_IDENTIFIER = com.techv.smartcall;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "4b9d91c4-18f5-4119-8a42-b4f57a4cde44";
+				PROVISIONING_PROFILE_SPECIFIER = "Smart Call";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -448,15 +506,19 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_ENTITLEMENTS = SmartCall/SmartCall.entitlements;
+				CODE_SIGN_STYLE = Manual;
 				DEVELOPMENT_TEAM = M6U48XKJMW;
 				INFOPLIST_FILE = SmartCall/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.techv.SmartCall;
+				PRODUCT_BUNDLE_IDENTIFIER = com.techv.smartcall;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "4b9d91c4-18f5-4119-8a42-b4f57a4cde44";
+				PROVISIONING_PROFILE_SPECIFIER = "Smart Call";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
