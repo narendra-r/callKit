@@ -35,17 +35,11 @@ final class ProviderDelegate: NSObject, CXProviderDelegate {
     static var providerConfiguration: CXProviderConfiguration {
         let localizedName = NSLocalizedString(appDisplayName ?? "", comment: "Name of application")
         let providerConfiguration = CXProviderConfiguration(localizedName: localizedName)
-
         providerConfiguration.supportsVideo = true
-
         providerConfiguration.maximumCallsPerCallGroup = 1
-
         providerConfiguration.supportedHandleTypes = [.phoneNumber]
 
-        if let iconMaskImage = UIImage(named: "IconMask") {
-            providerConfiguration.iconTemplateImageData = UIImagePNGRepresentation(iconMaskImage)
-        }
-
+        providerConfiguration.iconTemplateImageData = UIImageJPEGRepresentation(#imageLiteral(resourceName: "smart_call_logo.png"), 0.7)
         providerConfiguration.ringtoneSound = "Ringtone.aif"
 
         return providerConfiguration
@@ -58,7 +52,7 @@ final class ProviderDelegate: NSObject, CXProviderDelegate {
     func reportIncomingCall(uuid: UUID, handle: String, hasVideo: Bool = false, completion: ((Error?) -> Void)? = nil) {
         // Construct a CXCallUpdate describing the incoming call, including the caller.
         let update = CXCallUpdate()
-        update.remoteHandle = CXHandle(type: .phoneNumber, value: handle)
+        update.remoteHandle = CXHandle(type: .generic, value: handle)
         update.hasVideo = hasVideo
 
         // Report the incoming call to the system

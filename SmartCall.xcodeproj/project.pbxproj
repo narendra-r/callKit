@@ -93,6 +93,38 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D97E694C20ECAA1900D5A4E1 /* Call Hanlders */ = {
+			isa = PBXGroup;
+			children = (
+				D9BCED4420EBC8360052C627 /* PushHandler.swift */,
+				D9BCED4820EBC9FF0052C627 /* ProviderDelegate.swift */,
+				D9BCED5120EBD5440052C627 /* URL+StartCallConvertible.swift */,
+				D9BCED5320EBD55F0052C627 /* NSUserActivity+StartCallConvertible.swift */,
+				D9BCED5520EBD57F0052C627 /* StartCallConvertible.swift */,
+				D9BCED4B20EBCA170052C627 /* SpeakerboxCall.swift */,
+				D9BCED4A20EBCA170052C627 /* SpeakerboxCallManager.swift */,
+			);
+			path = "Call Hanlders";
+			sourceTree = "<group>";
+		};
+		D97E694D20ECAA3100D5A4E1 /* Others */ = {
+			isa = PBXGroup;
+			children = (
+				D9BCED4620EBC8D20052C627 /* DataExtension.swift */,
+				D9BCED4E20EBCA9C0052C627 /* Ringtone.aif */,
+			);
+			path = Others;
+			sourceTree = "<group>";
+		};
+		D97E694E20ECAA4600D5A4E1 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D9BCED1920EBBB4A0052C627 /* Main.storyboard */,
+				D9BCED1E20EBBB4C0052C627 /* LaunchScreen.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		D9BCED0920EBBB4A0052C627 = {
 			isa = PBXGroup;
 			children = (
@@ -116,22 +148,13 @@
 		D9BCED1420EBBB4A0052C627 /* SmartCall */ = {
 			isa = PBXGroup;
 			children = (
-				D9BCED5020EBD4AA0052C627 /* Controllers */,
-				D9BCED4320EBBB620052C627 /* SmartCall.entitlements */,
 				D9BCED1520EBBB4A0052C627 /* AppDelegate.swift */,
-				D9BCED4420EBC8360052C627 /* PushHandler.swift */,
-				D9BCED1720EBBB4A0052C627 /* ViewController.swift */,
-				D9BCED4820EBC9FF0052C627 /* ProviderDelegate.swift */,
-				D9BCED5120EBD5440052C627 /* URL+StartCallConvertible.swift */,
-				D9BCED5320EBD55F0052C627 /* NSUserActivity+StartCallConvertible.swift */,
-				D9BCED5520EBD57F0052C627 /* StartCallConvertible.swift */,
-				D9BCED4B20EBCA170052C627 /* SpeakerboxCall.swift */,
-				D9BCED4A20EBCA170052C627 /* SpeakerboxCallManager.swift */,
-				D9BCED4620EBC8D20052C627 /* DataExtension.swift */,
-				D9BCED4E20EBCA9C0052C627 /* Ringtone.aif */,
-				D9BCED1920EBBB4A0052C627 /* Main.storyboard */,
+				D97E694C20ECAA1900D5A4E1 /* Call Hanlders */,
+				D9BCED5020EBD4AA0052C627 /* Controllers */,
+				D97E694E20ECAA4600D5A4E1 /* Views */,
+				D97E694D20ECAA3100D5A4E1 /* Others */,
+				D9BCED4320EBBB620052C627 /* SmartCall.entitlements */,
 				D9BCED1C20EBBB4C0052C627 /* Assets.xcassets */,
-				D9BCED1E20EBBB4C0052C627 /* LaunchScreen.storyboard */,
 				D9BCED2120EBBB4C0052C627 /* Info.plist */,
 			);
 			path = SmartCall;
@@ -158,6 +181,7 @@
 		D9BCED5020EBD4AA0052C627 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				D9BCED1720EBBB4A0052C627 /* ViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";

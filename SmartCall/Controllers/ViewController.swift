@@ -50,7 +50,7 @@ class ViewController: UIViewController {
     private func updateNewOutCall(){
         let uuid = UUID()
         self.currentCallUUID = uuid
-        let handle = CXHandle(type: .phoneNumber, value: "Brother")
+        let handle = CXHandle(type: .generic, value: "Brother")
         
         let startCallAction = CXStartCallAction.init(call: uuid, handle: handle)
         
